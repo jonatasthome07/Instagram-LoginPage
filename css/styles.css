@@ -1,3 +1,5 @@
+/*GERAL*/
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,8 @@
 body{
     background-color: #fafafa;
 }
+
+/* CONTAINERS */
 
 #main-container{
     display: flex;
@@ -34,6 +38,8 @@ body{
 #form-container{
     text-align: center;
 }
+
+/*LOGIN FORM*/
 
 #form-box{
     background-color: #FFF;
@@ -74,6 +80,8 @@ body{
     font-weight: bold;
 }
 
+/*SEPARADOR*/
+
 .separator{
     position: relative;
 }
@@ -94,6 +102,8 @@ body{
     margin-left: -25px;
     font-size: 14px;
 }
+
+/*FACEBOOK LOGIN */
 
 #facebook-login{
     margin-bottom: 25px;  
@@ -119,6 +129,8 @@ body{
     margin-top: 1px;
 }
 
+/*FORGOT PASSWORD*/
+
 #forgot-pass{
     margin-bottom: 20px;
     font-size: 12px;
@@ -128,6 +140,8 @@ body{
     text-decoration: none;
     color: #373799;
 }
+
+/*REGISTER */
 
 #register-container{
     background-color: #fff;
@@ -148,6 +162,8 @@ body{
     text-decoration: none;
 }
 
+/*GET APP*/ 
+
 #get-app-container{
     text-align: center;
     width: 350px;
@@ -166,6 +182,8 @@ body{
     width: 136px;
     height: 40px;
 }
+
+/*FOOTER*/
 
 footer{
     text-align: left;
@@ -195,6 +213,8 @@ footer #footer-links{
 #copyright{
     margin-top: 10px;
 }
+
+/*MOBILE*/
 
 @media(max-width: 450px) {
     body{
@@ -228,4 +248,16 @@ footer #footer-links{
         margin-bottom: 10px;
     }
 
+}
+
+@media (width: 768px){
+    #form-container{
+        margin-left: 310px;
+    }
+
+    #banner-container{
+        display: none;
+    }
+
+    
 }
